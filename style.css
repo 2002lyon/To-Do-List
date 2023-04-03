@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 2rem;
+    /* border: 1px solid red; */
+    width: 50%;
+    /* height: 50vh; */
+    transform: translate(50%, 35%);
+}
+
+form .label{
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.input{
+    padding: 1rem;
+    outline: none;
+    margin-bottom: 1rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.description textarea{
+    resize: none;
+    outline: none;
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+.btn{
+    width: 13rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#box{
+    margin-top: 3rem;
+}
+
+#box li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    background-color: rgb(47, 44, 44);
+    color: white;
+}
+
+#box li button{
+    padding: .5rem 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
